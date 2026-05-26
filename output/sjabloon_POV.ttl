@@ -1,0 +1,61 @@
+@prefix : <http://base.example.com/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/> .
+@prefix exr: <http://example.org/relation/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://example.com/Man> a skos:Concept .
+
+<http://example.com/Mannelijk> a skos:Concept .
+
+<http://example.com/POV> a <http://www.w3.org/ns/org#Organization>;
+  dc:description "Provincie Oost-Vlaanderen"@nl;
+  skos:prefLabel "Provincie Oost-Vlaanderen"@nl;
+  <http://www.w3.org/ns/org#hasSubOrganization> <http://example.com/POV/POLIS>;
+  <http://www.w3.org/ns/regorg#orgType> <http://example.com/orgtype/provincie>;
+  foaf:homepage "https://oost-vlaanderen.be/" .
+
+<http://example.com/POV/POLIS> a <http://www.w3.org/ns/org#Organization>;
+  dc:description "Dienst POLIS binnen Provincie Oost-Vlaanderen"@nl .
+
+<http://example.com/POV/Person/00001> a dc:Agent, <http://www.w3.org/ns/person#Person>;
+  <http://www.w3.org/ns/org#headOf> <http://example.com/POV/POLIS>;
+  <http://www.w3.org/ns/org#memberOf> <http://example.com/POV>;
+  <http://www.w3.org/ns/org#reportsTo> <http://example.com/POV/Person/00002>;
+  foaf:familyName "Groot";
+  foaf:givenName "Test";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/Man>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Test Groot" .
+
+<http://example.com/POV/Person/00002> a dc:Agent, <http://www.w3.org/ns/person#Person>;
+  <http://www.w3.org/ns/org#headOf> <http://example.com/POV>;
+  foaf:familyName "Klein";
+  foaf:givenName "Tester";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/Vrouw>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Tester Klein" .
+
+<http://example.com/POV/Person/00003> a <http://www.w3.org/ns/person#Person>;
+  foaf:familyName "Snel";
+  foaf:givenName "Testertje";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/Mannelijk>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Testertje Snel" .
+
+<http://example.com/POV/Person/00004> a <http://www.w3.org/ns/person#Person>;
+  foaf:familyName "Traag";
+  foaf:givenName "Testeraar";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/Vrouwelijk>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Traag Testeraar" .
+
+<http://example.com/Vrouw> a skos:Concept .
+
+<http://example.com/Vrouwelijk> a skos:Concept .
+
+<http://example.com/orgtype/provincie> a skos:Concept .

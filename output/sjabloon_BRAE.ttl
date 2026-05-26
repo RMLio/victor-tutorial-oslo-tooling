@@ -1,0 +1,44 @@
+@prefix : <http://base.example.com/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/> .
+@prefix exr: <http://example.org/relation/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://example.com/geslacht/niet-gespecificeerd> a skos:Concept .
+
+<http://example.com/orgtype/regionaal> a skos:Concept .
+
+<http://example.com/vlaams_gemeenschapscommissie> a <http://www.w3.org/ns/org#Organization>;
+  dc:description "Vlaams Gemeenschapscommie (VGC)"@nl;
+  skos:prefLabel "VGC"@nl;
+  <http://www.w3.org/ns/org#hasSubOrganization> <http://example.com/vlaams_gemeenschapscommissie/ict>;
+  <http://www.w3.org/ns/regorg#orgType> <http://example.com/orgtype/regionaal>;
+  foaf:homepage "https://www.vgc.be/" .
+
+<http://example.com/vlaams_gemeenschapscommissie/ict> a <http://www.w3.org/ns/org#Organization>;
+  dc:description "Dienst ICT VGC"@nl;
+  skos:prefLabel "VGC ICT"@nl .
+
+<http://example.com/vlaams_gemeenschapscommissie/persoon/001> a dc:Agent, <http://www.w3.org/ns/person#Person>;
+  <http://www.w3.org/ns/org#headOf> <http://example.com/vlaams_gemeenschapscommissie/ict>;
+  <http://www.w3.org/ns/org#memberOf> <http://example.com/vlaams_gemeenschapscommissie/ict>;
+  foaf:familyName "Boss";
+  foaf:givenName "Hugo";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/geslacht/niet-gespecificeerd>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Hugo Boss" .
+
+<http://example.com/vlaams_gemeenschapscommissie/persoon/007> a dc:Agent, <http://www.w3.org/ns/person#Person>;
+  <http://www.w3.org/ns/org#memberOf> <http://example.com/vlaams_gemeenschapscommissie/ict>;
+  <http://www.w3.org/ns/org#reportsTo> <http://example.com/vlaams_gemeenschapscommissie/persoon/001>;
+  foaf:familyName "Drone";
+  foaf:givenName "Frank";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/geslacht/niet-gespecificeerd>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Fank Drone" .
