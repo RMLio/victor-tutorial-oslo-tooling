@@ -1,0 +1,46 @@
+@prefix : <http://base.example.com/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/> .
+@prefix exr: <http://example.org/relation/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://example.com/gemeente_Tervuren> a <http://www.w3.org/ns/org#Organization>;
+  dc:description "Overkoepelende organisatie voor Tervuren"@nl;
+  <http://www.w3.org/ns/org#hasSubOrganization> <http://example.com/orgtype/overheid>;
+  <http://www.w3.org/ns/regorg#orgType> <http://example.com/orgtype/lokaal>;
+  foaf:homepage "https://tervuren.be" .
+
+<http://example.com/gemeente_Tervuren/burgerzaken> a <http://www.w3.org/ns/org#Organization>;
+  dc:description "dienst burgerzaken tervuren"@nl;
+  <http://www.w3.org/ns/regorg#orgType> <http://example.com/orgtype/lokaal>;
+  foaf:homepage "https://tervuren.be/burgerzaken" .
+
+<http://example.com/gemeente_Tervuren/persoon/001> a dc:Agent, <http://www.w3.org/ns/person#Person>;
+  <http://www.w3.org/ns/org#memberOf> <http://example.com/gemeente_Tervuren/burgerzaken>;
+  <http://www.w3.org/ns/org#reportsTo> <http://example.com/gemeente_Tervuren/persoon/002>;
+  foaf:familyName "Brockx";
+  foaf:givenName "Bert";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/geslacht/man>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Bert Brocx" .
+
+<http://example.com/gemeente_Tervuren/persoon/002> a dc:Agent, <http://www.w3.org/ns/person#Person>;
+  <http://www.w3.org/ns/org#headOf> <http://example.com/gemeente_Tervuren/burgerzaken>;
+  <http://www.w3.org/ns/org#memberOf> <http://example.com/gemeente_Tervuren/burgerzaken>;
+  foaf:familyName "Brockx";
+  foaf:givenName "Jan";
+  <https://data.vlaanderen.be/ns/persoon#geslacht> <http://example.com/geslacht/man>;
+  <https://data.vlaanderen.be/ns/persoon#volledigeNaam> "Jan Brockx" .
+
+<http://example.com/geslacht/man> a skos:Concept .
+
+<http://example.com/orgtype/lokaal> a skos:Concept .
+
+<http://example.com/orgtype/overheid> a <http://www.w3.org/ns/org#Organization> .

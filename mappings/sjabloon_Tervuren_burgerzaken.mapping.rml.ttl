@@ -26,7 +26,7 @@
 	rr:predicateObjectMap :pom_000, :pom_001, :pom_002, :pom_003, :pom_004 .
 
 :source_000 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Veranderingsgebeurtenis[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -96,7 +96,7 @@
 	rr:predicateObjectMap :pom_005 .
 
 :source_001 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Veranderingsgebeurtenis[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -121,7 +121,7 @@
 	rr:predicateObjectMap :pom_006 .
 
 :source_002 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Veranderingsgebeurtenis[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -146,7 +146,7 @@
 	rr:predicateObjectMap :pom_007 .
 
 :source_003 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Veranderingsgebeurtenis[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -171,7 +171,7 @@
 	rr:predicateObjectMap :pom_008, :pom_009, :pom_010, :pom_011, :pom_012, :pom_013, :pom_014, :pom_015, :pom_016, :pom_017, :pom_018, :pom_019, :pom_020, :pom_021, :pom_022, :pom_023, :pom_024, :pom_025, :pom_026, :pom_027, :pom_028, :pom_029, :pom_030 .
 
 :source_004 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -451,7 +451,7 @@
 	rr:predicateObjectMap :pom_031 .
 
 :source_005 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -476,7 +476,7 @@
 	rr:predicateObjectMap :pom_032 .
 
 :source_006 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -501,7 +501,7 @@
 	rr:predicateObjectMap :pom_033 .
 
 :source_007 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -526,7 +526,7 @@
 	rr:predicateObjectMap :pom_034 .
 
 :source_008 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -551,7 +551,7 @@
 	rr:predicateObjectMap :pom_035 .
 
 :source_009 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -576,7 +576,7 @@
 	rr:predicateObjectMap :pom_036 .
 
 :source_010 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -601,7 +601,7 @@
 	rr:predicateObjectMap :pom_037 .
 
 :source_011 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -626,7 +626,7 @@
 	rr:predicateObjectMap :pom_038 .
 
 :source_012 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -651,7 +651,7 @@
 	rr:predicateObjectMap :pom_039 .
 
 :source_013 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -676,7 +676,7 @@
 	rr:predicateObjectMap :pom_040 .
 
 :source_014 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -701,7 +701,7 @@
 	rr:predicateObjectMap :pom_041 .
 
 :source_015 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -726,7 +726,7 @@
 	rr:predicateObjectMap :pom_042 .
 
 :source_016 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -751,7 +751,7 @@
 	rr:predicateObjectMap :pom_043 .
 
 :source_017 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -776,7 +776,7 @@
 	rr:predicateObjectMap :pom_044 .
 
 :source_018 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -801,7 +801,7 @@
 	rr:predicateObjectMap :pom_045 .
 
 :source_019 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -826,7 +826,7 @@
 	rr:predicateObjectMap :pom_046 .
 
 :source_020 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -851,7 +851,7 @@
 	rr:predicateObjectMap :pom_047 .
 
 :source_021 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -876,7 +876,7 @@
 	rr:predicateObjectMap :pom_048, :pom_049, :pom_050, :pom_051, :pom_052, :pom_053 .
 
 :source_022 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Agent[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -956,7 +956,7 @@
 	rr:predicateObjectMap :pom_054 .
 
 :source_023 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Agent[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -981,7 +981,7 @@
 	rr:predicateObjectMap :pom_055 .
 
 :source_024 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Agent[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1006,7 +1006,7 @@
 	rr:predicateObjectMap :pom_056 .
 
 :source_025 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Agent[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1031,7 +1031,7 @@
 	rr:predicateObjectMap :pom_057 .
 
 :source_026 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Agent[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1056,7 +1056,7 @@
 	rr:predicateObjectMap :pom_058 .
 
 :source_027 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Agent[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1081,7 +1081,7 @@
 	rr:predicateObjectMap :pom_059, :pom_060, :pom_061, :pom_062, :pom_063, :pom_064 .
 
 :source_028 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Vestiging[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1161,7 +1161,7 @@
 	rr:predicateObjectMap :pom_065 .
 
 :source_029 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Vestiging[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1186,7 +1186,7 @@
 	rr:predicateObjectMap :pom_066 .
 
 :source_030 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Vestiging[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1211,7 +1211,7 @@
 	rr:predicateObjectMap :pom_067 .
 
 :source_031 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Vestiging[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1236,7 +1236,7 @@
 	rr:predicateObjectMap :pom_068 .
 
 :source_032 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Vestiging[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1261,7 +1261,7 @@
 	rr:predicateObjectMap :pom_069 .
 
 :source_033 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Vestiging[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1286,7 +1286,7 @@
 	rr:predicateObjectMap :pom_070, :pom_071, :pom_072, :pom_073, :pom_074 .
 
 :source_034 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Lidmaatschap[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1355,7 +1355,7 @@
 	rr:predicateObjectMap :pom_075 .
 
 :source_035 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Lidmaatschap[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1380,7 +1380,7 @@
 	rr:predicateObjectMap :pom_076 .
 
 :source_036 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Lidmaatschap[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1405,7 +1405,7 @@
 	rr:predicateObjectMap :pom_077 .
 
 :source_037 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Lidmaatschap[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1430,7 +1430,7 @@
 	rr:predicateObjectMap :pom_078 .
 
 :source_038 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Lidmaatschap[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1455,7 +1455,7 @@
 	rr:predicateObjectMap :pom_079, :pom_080 .
 
 :source_039 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.FormeelKader[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1494,7 +1494,7 @@
 	rr:predicateObjectMap :pom_081, :pom_082, :pom_083 .
 
 :source_040 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Plaats[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1544,7 +1544,7 @@
 	rr:predicateObjectMap :pom_084 .
 
 :source_041 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Plaats[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1569,7 +1569,7 @@
 	rr:predicateObjectMap :pom_085, :pom_086 .
 
 :source_042 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatieeenheid[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1605,7 +1605,7 @@
 	rr:predicateObjectMap :pom_087 .
 
 :source_043 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Organisatieeenheid[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1630,7 +1630,7 @@
 	rr:predicateObjectMap :pom_088, :pom_089 .
 
 :source_044 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Hoedanigheid[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1666,7 +1666,7 @@
 	rr:predicateObjectMap :pom_090 .
 
 :source_045 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Hoedanigheid[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1691,7 +1691,7 @@
 	rr:predicateObjectMap :pom_091, :pom_092, :pom_093, :pom_094, :pom_095 .
 
 :source_046 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Positie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1760,7 +1760,7 @@
 	rr:predicateObjectMap :pom_096 .
 
 :source_047 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Positie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1785,7 +1785,7 @@
 	rr:predicateObjectMap :pom_097 .
 
 :source_048 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Positie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1810,7 +1810,7 @@
 	rr:predicateObjectMap :pom_098 .
 
 :source_049 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Positie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1835,7 +1835,7 @@
 	rr:predicateObjectMap :pom_099 .
 
 :source_050 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Positie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1860,7 +1860,7 @@
 	rr:predicateObjectMap :pom_100, :pom_101 .
 
 :source_051 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Stopzetting[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1896,7 +1896,7 @@
 	rr:predicateObjectMap :pom_102 .
 
 :source_052 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Stopzetting[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1921,7 +1921,7 @@
 	rr:predicateObjectMap :pom_103, :pom_104 .
 
 :source_053 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.PubliekeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1957,7 +1957,7 @@
 	rr:predicateObjectMap :pom_105 .
 
 :source_054 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.PubliekeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -1982,7 +1982,7 @@
 	rr:predicateObjectMap :pom_106, :pom_107, :pom_108, :pom_109, :pom_110, :pom_111 .
 
 :source_055 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.GeregistreerdeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2065,7 +2065,7 @@
 	rr:predicateObjectMap :pom_112 .
 
 :source_056 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.GeregistreerdeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2090,7 +2090,7 @@
 	rr:predicateObjectMap :pom_113 .
 
 :source_057 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.GeregistreerdeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2115,7 +2115,7 @@
 	rr:predicateObjectMap :pom_114 .
 
 :source_058 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.GeregistreerdeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2140,7 +2140,7 @@
 	rr:predicateObjectMap :pom_115 .
 
 :source_059 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.GeregistreerdeOrganisatie[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2165,7 +2165,7 @@
 	rr:predicateObjectMap :pom_116, :pom_117, :pom_118, :pom_119, :pom_120, :pom_121 .
 
 :source_060 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Persoon[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2248,7 +2248,7 @@
 	rr:predicateObjectMap :pom_122 .
 
 :source_061 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Persoon[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
@@ -2273,7 +2273,7 @@
 	rr:predicateObjectMap :pom_123 .
 
 :source_062 rdf:type rml:LogicalSource ;
-	rml:source "out/sjabloon.json" ;
+	rml:source "out/sjabloon_Tervuren_burgerzaken.json" ;
 	rml:iterator "$.Persoon[*]" ;
 	rml:referenceFormulation ql:JSONPath .
 
